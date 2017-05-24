@@ -35,7 +35,7 @@ def action():
                 car_product_count-=1
                 car_customer_count+=1
 
-                print('{},{},{},{}'.format(car_customer_property, car_store_property, car_product_count, car_customer_count))
+                print('구매후 고객의 재산{}\n판매후 차상점의 재산 {}\n판매후 차상점의 차 댓수 변화{}\n구매후 고객의 보유차량 댓수{}'.format(car_customer_property, car_store_property, car_product_count, car_customer_count))
 
             else:
                 print('1번 부터 먼저 입력해주세요')
